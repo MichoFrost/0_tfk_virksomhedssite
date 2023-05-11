@@ -4,9 +4,9 @@
   background: rgb(255, 10, 10);
   background: linear-gradient(
     90deg,
-    rgba(255, 10, 10, 1) 0%,
-    rgba(232, 226, 0, 1) 49%,
-    rgba(62, 116, 66, 1) 100%
+    rgb(157, 255, 10) 0%,
+    rgb(0, 232, 217) 49%,
+    rgb(62, 63, 116) 100%
   );
 }
 
