@@ -1,0 +1,149 @@
+/*farver*/
+body {
+    background-color: rgb(255, 243, 243);
+    }
+    
+    /*nav og banner på forsiden*/
+    header img {
+      width: 100px;
+    }
+    
+    .banner {
+      background: #efd4c1;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    
+    .teo_tekst {
+      margin-left: -800px;
+      margin-top: 1.5px;
+      font-family: "Cormorant Upright", serif;
+      font-size: 20px;
+    }
+    
+    .main-menu ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 2em;
+      margin-top: 2em;
+      font-size: 20px;
+      font-family: 'Instrument Sans', sans-serif;
+    }
+    
+    /*indhold på forsiden*/
+    
+    main video {
+      width: 100%;
+      height: auto;
+    
+      aspect-ratio: 16/9;
+      margin-top: 2em;
+    }
+    
+    .grid1-1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .info {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    margin-top: 2em;
+    }
+    
+    .info h1 {
+    font-size: 40px;
+    font-family: "Cormorant Upright", serif;
+    color: #ff4949;
+    }
+    
+    .info p {
+      font-size: 18px;
+      font-family: 'Instrument Sans', sans-serif;
+    }
+    
+    .grid1-1-1-1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-top: 5em;
+      margin-left: 2em;
+      margin-right: 2em;
+      margin-bottom: 5em;
+      gap: 2em;
+    }
+    
+    main img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16/9;
+    }
+    
+    .content {
+    text-align: center;
+    }
+    
+    .content a {
+    text-decoration: none;
+    display: inline-block;
+    color: #ff4949;
+    font-size: 50px;
+    border: 2px solid #ff4949;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 2.5em;
+    font-family: "Cormorant Upright", serif;
+    }
+    
+    /*banner med følg os og links*/
+    
+    .tilmeld a {
+      text-decoration: none;
+      display: inline-block;
+      color: #ffffff;
+      font-size: 18px;
+      background: #ff4949;
+      padding: 14px 70px;
+      border-radius: 50px;
+      margin-top: 18px;
+      display: flex;
+      font-family: "Cormorant Upright", serif;
+      }
+    
+    
+    .fb {
+    width: 70px;
+    margin-top: 1.3em;
+    margin-right: 5em;
+    height: auto;
+    }
+    
+    
+     .banner h2 {
+    color: #ff7c7c;
+    font-family: 'Instrument Sans', sans-serif;
+     }   
+    
+     
+    /*footer*/
+    
+    footer {
+    background-color: #000000;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    
+    footer p {
+      color: #ffffff;
+      margin-left: 2em;
+      margin-right: 2em;
+      font-family: 'Instrument Sans', sans-serif;
+      }
+    
+    
+    
