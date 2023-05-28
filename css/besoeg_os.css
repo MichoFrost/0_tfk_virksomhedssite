@@ -4,10 +4,18 @@ h1 {
 .intro-text {
     text-align: center;
 }
-h3 {text-align: center;
-font-size: 2.2em;}
-.gratis-arrangementer {
+
+
+.flex-container {
     display: flex;
-    justify-content: space-around;
-    
-}
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row; 
+    gap: 1em;
+  }
+
+  .flex-item {
+    margin: 10px;
+    text-align: center;
+    max-width: 20%;
+  }
