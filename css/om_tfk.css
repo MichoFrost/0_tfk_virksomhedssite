@@ -1,7 +1,168 @@
-/* .micho_cormorant {
+/*GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL*/
+/*GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL*/
+/*GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Cormorant Upright", serif;
 }
 
-.micho_instrument {
+p,
+a {
   font-family: "Instrument Sans", sans-serif;
-} */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*HEADER***HEADER***HEADER***HEADER***HEADER***HEADER***HEADER*/
+/*HEADER***HEADER***HEADER***HEADER***HEADER***HEADER***HEADER*/
+/*HEADER***HEADER***HEADER***HEADER***HEADER***HEADER***HEADER*/
+
+.about_siteheader {
+  background-color: #f3d3be;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about_siteheader-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*LOGO*/
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo_symbol {
+  width: 100px;
+}
+.logo_text {
+}
+.logo_heading {
+}
+
+/*NAVBAR*/
+
+.navbar {
+}
+.navbar_list {
+  display: flex;
+  gap: 20px;
+}
+.navbar_item {
+  list-style: none;
+}
+.navbar_link {
+  font-family: "Cormorant Upright", serif;
+  font-weight: bold;
+}
+
+/*MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN*/
+/*MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN*/
+/*MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN***MAIN*/
+
+.about_main {
+}
+
+/*INTRO-SECTION*/
+.intro_text {
+  margin: 3em;
+  text-align: center;
+}
+
+.intro_text-heading {
+}
+.intro_text-paragraph {
+  text-align: center;
+}
+.about_btn {
+  background-color: #694960;
+  color: white;
+  padding: 1em 1.3em;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+}
+
+/*SYMBOLS-SECTION*/
+
+.symbols {
+}
+.symbol_size {
+  width: 200px;
+}
+.symbol_image {
+}
+.symbol_text {
+}
+.symbol_heading {
+}
+.symbol_paragraph {
+}
+
+/*INDIVIDUELLE SYMBOLER*/
+.symbols_main-symbol {
+}
+.symbols_circle {
+}
+.symbols_david-star {
+}
+.symbols_hank-cross {
+}
+.symbols_svastika {
+}
+.symbols_aum {
+}
+
+/*CTA-EVENTS-SECTION*/
+.cta_banner_events {
+  background-color: #cd795d;
+}
+.cta_banner_btn {
+  background-color: #694960;
+  color: white;
+}
+
+/*FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER*/
+/*FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER*/
+/*FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER*/
+
+.about_sitefooter {
+  background-color: #f3d3be;
+}
+.about_sitefooter_SoMe {
+}
+.SoMe_text {
+}
+.newsletter_btn {
+}
+.about_sitefooter_copyrights {
+  background-color: black;
+}
+
+.copyrights_text {
+  color: white;
+}
