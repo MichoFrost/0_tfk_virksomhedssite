@@ -11,15 +11,22 @@
   </head>
 
   <body>
+
+
+    <section class="overlay"></section>
+
     <!--HEADER-->
     <header class="about_siteheader">
-      <div class="about_siteheader-container">
+      <div class="about_siteheader-container wrapper">
         <div class="logo">
-          <img
+          <a href="/index.html">
+            <img
             class="logo_symbol"
             src="/img/tfk_logo_hvid_BG.png"
             alt="Teosofisk Foreningens logo"
           />
+          </a>
+
           <div class="logo_text">
             <h4 class="logo_heading">Teosofisk Forening</h4>
             <h4 class="logo_heading">København</h4>
@@ -54,17 +61,23 @@
             Forening har brugt i over 100 år. Der ligger nemlig meget historie
             og information i hvert symbol.
           </p>
-          <button class="about_btn">Læs mere om Teosofi her</button>
+          <button class="about_btn btn">Læs mere om Teosofi her</button>
         </section>
+
+        <article class="about_modal modal">
+          <p>Ordet teosofi kommer af det græske ”theosophia”, der betyder guddommelig visdom eller åndelig visdom. ”Theos” betyder ”Gud” og refererer til det guddommelige eller det åndelige. ”Sophia” betyder visdom eller indsigt. Teosofi kaldes også ”den esoteriske lære”. Ordet “esoterisk” stammer også fra græsk og betyder ”indre”, i modsætning til ”eksoterisk”, der betyder ”ydre”.
+
+            Teosofien er en åndsvidenskab, der udforsker livets skjulte sider eller tilværelsens årsager i modsætning til naturvidenskaben, der udforsker livets synlige formside eller virkningernes verden. Åndsvidenskabens forskning er baseret på metafysiske evner eller psykiske sanser. Mange af åndsvidenskabens påstande kan hverken bevises eller modbevises på grundlag af naturvidenskabens præmisser, der kræver fysiske beviser på enhver påstand. Åndsvidenskabens forskning bygger derfor primært på indicier og arbejdshypoteser. Men dette betyder ikke, at teosofi er et trossystem.
+            
+            Teosofi er en videnskab, der er udvidet ved anvendelse af metafysiske forskningsmetoder, og da denne forskning reelt er baseret på iagttagelse, kan den kaldes empirisk (erfaringsbaseret).
+            
+            Teosofien blev introduceret i 1875 af H.P. Blavatsky og Henry Steel Olcott, som stiftede en forening, der skulle beskæftige sig med metafysiske fænomener. Det var starten på Det Teosofiske Samfund og på den esoteriske lære eller åndsvidenskaben. I 1930’erne kom den næste impuls, som blev givet gennem af Alice A. Bailey med 12.000 sider avanceret, esoterisk stof. i 1950’erne kom der endnu en impuls, der blev givet gennem Lucille Cedercrans.</p>
+            <img class="close_about close_icon" src="/img/om_tfk/x-circle.svg" alt="Close icon (x)" />
+          </article>
 
         <!--SECTION - SYMBOLS-->
         <section class="symbols">
-          <article class="symbols_main-symbol">
-            <img
-              src="/img/om_tfk/logo_fig1.jpg"
-              alt="Teosofisk Forenings hovedsymbol - Sejlet"
-              class="symbol_image symbol_size"
-            />
+          <article class="symbols_main-symbol symbol_article">
             <div class="symbol_text">
               <h3 class="symbol_heading">Hovedsymbolet</h3>
               <p class="symbol_paragraph">
@@ -76,15 +89,26 @@
                 jordiske.
               </p>
             </div>
+            <div class="symbol_container main_symbol">
+              <img
+              src="/img/om_tfk/logo_fig1.jpg"
+              alt="Teosofisk Forenings hovedsymbol - Sejlet"
+              class="symbol_image symbol_size"
+              />
+              <p class="symbol_read_more">Klik for at læse mere</p>
+            </div>
           </article>
-          <article class="symbols_circle">
-            <img
+          <article class="symbols_circle symbol_article">
+            <div class="symbol_container circle_symbol">
+              <img
               src="/img/om_tfk/logo_fig2.jpg"
               alt=""
               class="symbol_image symbol_size"
-            />
-            <div class="symbol_text">
-              <h3 class="symbol_heading">Slangen eller cirklen</h3>
+              />
+              <p class="symbol_read_more">Klik for at læse mere</p>
+            </div>
+              <div class="symbol_text">
+                <h3 class="symbol_heading">Slangen eller cirklen</h3>
               <p class="symbol_paragraph">
                 Først er der slangen eller cirklen. Cirklen er evighedens
                 symbol. Den er uden begyndelse og ende. Den symboliserer også
@@ -93,7 +117,7 @@
               </p>
             </div>
           </article>
-          <article class="symbols_david-star">
+          <article class="symbols_david-star symbol_article">
             <div class="symbol_text">
               <h3 class="symbol_heading">Den sekstakkede stjerne</h3>
               <p class="symbol_paragraph">
@@ -101,18 +125,24 @@
                 den uadskillelige enhed mellem and og stof.
               </p>
             </div>
-            <img
+            <div class="symbol_container david-star_symbol">
+              <img
               src="/img/om_tfk/logo_fig3.jpg"
               alt=""
               class="symbol_image symbol_size"
-            />
-          </article>
-          <article class="symbols_hank-cross">
-            <img
+              />
+              <p class="symbol_read_more">Klik for at læse mere</p>
+            </div>
+            </article>
+          <article class="symbols_hank-cross symbol_article">
+            <div class="symbol_container hank-cross_symbol">
+              <img
               src="/img/om_tfk/logo_fig4.jpg"
               alt=""
               class="symbol_image symbol_size"
-            />
+              />
+              <p class="symbol_read_more">Klik for at læse mere</p>
+            </div>
             <div class="symbol_text">
               <h3 class="symbol_heading">Hankekorset</h3>
               <p class="symbol_paragraph">
@@ -121,27 +151,33 @@
               </p>
             </div>
           </article>
-          <article class="symbols_svastika">
+          <article class="symbols_svastika symbol_article">
             <div class="symbol_text">
               <h3 class="symbol_heading">Svastikakorset</h3>
               <p class="symbol_paragraph">
-                Svastikorset er på toppen af det teosofiske segl, og ma ikke
+                Svastikorset er på toppen af det teosofiske segl, og må ikke
                 forveksles med hagekorset, som er resultatet af nazisternes
                 misbrug af dette ældgamle, heilige symbol.
               </p>
             </div>
-            <img
+            <div class="symbol_container svastika_symbol">
+              <img
               src="/img/om_tfk/logo_fig5.jpg"
               alt=""
               class="symbol_image symbol_size"
-            />
+              />
+              <p class="symbol_read_more">Klik for at læse mere</p>
+            </div>
           </article>
-          <article class="symbols_aum">
-            <img
+          <article class="symbols_aum symbol_article">
+            <div class="symbol_container aum_symbol">
+              <img
               src="/img/om_tfk/logo_fig6.jpg"
               alt=""
               class="symbol_image symbol_size"
-            />
+              />
+              <p class="symbol_read_more">Klik for at læse mere</p>
+            </div>
             <div class="symbol_text">
               <h3 class="symbol_heading">AUM</h3>
               <p class="symbol_paragraph">
@@ -152,19 +188,23 @@
               </p>
             </div>
           </article>
+        </div>
         </section>
 
         <!--SECTION - CTA-BANNER-->
         <section class="cta_banner_events">
-          <h2>Kom og deltag i vores arrangementer!</h2>
-          <p>
-            Synes du Teosofi lyder spændende? Har du lyst til at lære mere? Sâ
-            kom til ét af vores arrangementer! Vi har bl.a gratis
-            fuldmâne-meditationer og drop-in aftener hver mâned.
-          </p>
-          <a class="cta_banner_btn" href="besoeg_os.html">Events</a>
+          <div class="wrapper">
+
+            <h2>Kom og deltag i vores arrangementer!</h2>
+            <p>
+              Synes du Teosofi lyder spændende? Har du lyst til at lære mere? Sâ
+              kom til ét af vores arrangementer! Vi har bl.a gratis
+              fuldmâne-meditationer og drop-in aftener hver mâned.
+            </p>
+            <a class="cta_banner_btn btn"  href="besoeg_os.html">Events</a>
+          </div>
         </section>
-      </div>
+
     </main>
 
     <!--FOOTER-->
@@ -174,15 +214,19 @@
           <p class="SoMe_text">
             Følg os på Facebook eller tilmeld dig vores nyhedsbrev
           </p>
-          <button class="newsletter_btn" href="#">Tilmeld nyhedsbrev</button>
+          <button class="newsletter_btn btn" href="#">Tilmeld nyhedsbrev</button>
+        </div>
         </section>
         <section class="about_sitefooter_copyrights">
-          <p class="copyrights_text">©Teosofisk Forening København</p>
-          <p class="copyrights_text">Alle rettigheder reserveret.</p>
-          <p class="copyrights_text">Webdesign: KEA studerende</p>
-          <a class="copyrights_text" href="#">Handelsbetingelser</a>
-        </section>
-      </div>
+            <div class="copyrights-container wrapper">
+            <p class="copyrights_text">©Teosofisk Forening København</p>
+            <p class="copyrights_text">Alle rettigheder reserveret.</p>
+            <p class="copyrights_text">Webdesign: KEA studerende</p>
+            <a class="copyrights_text" href="#">Handelsbetingelser</a>
+          </div>
+          </section>
     </footer>
   </body>
+
+  <script src="/js/om_tfk.js"></script>
 </html>
