@@ -7,11 +7,18 @@ const hankCrossSymbol = document.querySelector(".hank-cross_symbol");
 const svastikaSymbol = document.querySelector(".svastika_symbol");
 const aumSymbol = document.querySelector(".aum_symbol");
 
-// MODALS
+// MODALS - GENERAL
 const allModals = Array.from(document.querySelectorAll(".modal"));
 const allCloseIcons = Array.from(document.querySelectorAll(".close_icon"));
 const overlay = document.querySelector(".overlay");
+// MODAL - INDIVIDUAL
 const aboutModal = document.querySelector(".about_modal");
+const mainSymbolModal = document.querySelector(".main-symbol_modal");
+const circleModal = document.querySelector(".circle_modal");
+const davidStarModal = document.querySelector(".david-star_modal");
+const hankCrossModal = document.querySelector(".hank-cross_modal");
+const svastikaModal = document.querySelector(".svastika_modal");
+const aumModal = document.querySelector(".aum_modal");
 
 // FUNCTIONS
 
@@ -38,19 +45,31 @@ aboutBtn.addEventListener("click", function () {
 });
 mainSymbol.addEventListener("click", function () {
   console.log("mainSymbol");
+  mainSymbolModal.classList.add("visible");
+  overlay.classList.add("visible");
 });
 circleSymbol.addEventListener("click", function () {
   console.log("circleSymbol");
+  circleModal.classList.add("visible");
+  overlay.classList.add("visible");
 });
 davidStarSymbol.addEventListener("click", function () {
   console.log("davidStarSymbol");
+  davidStarModal.classList.add("visible");
+  overlay.classList.add("visible");
 });
 hankCrossSymbol.addEventListener("click", function () {
   console.log("hankCrossSymbol");
+  hankCrossModal.classList.add("visible");
+  overlay.classList.add("visible");
 });
 svastikaSymbol.addEventListener("click", function () {
   console.log("svastikaSymbol");
+  svastikaModal.classList.add("visible");
+  overlay.classList.add("visible");
 });
 aumSymbol.addEventListener("click", function () {
   console.log("aumSymbol");
+  aumModal.classList.add("visible");
+  overlay.classList.add("visible");
 });
