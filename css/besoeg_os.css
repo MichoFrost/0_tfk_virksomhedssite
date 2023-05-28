@@ -50,13 +50,13 @@ main {
 
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
-    grid-template-rows: repeat(2, 1fr); /* Two equal-height rows */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
     grid-gap: 10px;
   }
   
   .item {
-    background-color: #5a1212;
+    background-color: #115f7e;
     padding: 20px;
     text-align: center;
   }
