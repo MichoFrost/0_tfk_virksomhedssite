@@ -21,12 +21,10 @@ const svastikaModal = document.querySelector(".svastika_modal");
 const aumModal = document.querySelector(".aum_modal");
 
 // FUNCTIONS
-
 function closeModals() {
   allModals.forEach((element) => element.classList.remove("visible"));
   overlay.classList.remove("visible");
 }
-
 // CLOSE-EVENTS
 overlay.addEventListener("click", function () {
   closeModals();
@@ -72,4 +70,13 @@ aumSymbol.addEventListener("click", function () {
   console.log("aumSymbol");
   aumModal.classList.add("visible");
   overlay.classList.add("visible");
+});
+
+// EVENTS-BUTTON
+
+const eventsBtn = document.querySelector(".cta_banner_btn");
+
+eventsBtn.addEventListener("click", function () {
+  console.log("eventsBtn");
+  window.location.href = "besoeg_os.html";
 });

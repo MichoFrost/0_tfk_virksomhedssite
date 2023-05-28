@@ -14,16 +14,33 @@ h4,
 h5,
 h6 {
   font-family: "Cormorant Upright", serif;
+  margin-bottom: 10px;
 }
 
-p,
-a {
-  font-family: "Instrument Sans", sans-serif;
+h1 {
+  font-size: 3.3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
 }
 
 a {
   text-decoration: none;
   color: black;
+  font-size: 1.5em;
+}
+
+p {
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+}
+
+p,
+a {
+  font-family: "Instrument Sans", sans-serif;
 }
 
 .wrapper {
@@ -35,10 +52,10 @@ a {
   background-color: #694960;
   color: white;
   padding: 1em 1.3em;
-  border-radius: 25px;
+  border-radius: 50px;
   border: none;
   font-weight: bold;
-  margin: 2em;
+  margin: 1em;
   cursor: pointer;
 }
 
@@ -55,6 +72,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0.5em;
 }
 
 .about_siteheader-container {
@@ -83,7 +101,7 @@ a {
 }
 .navbar_list {
   display: flex;
-  gap: 20px;
+  gap: 4em;
 }
 .navbar_item {
   list-style: none;
@@ -127,6 +145,7 @@ a {
   text-align: center;
 }
 .about_btn {
+  margin: 3em;
 }
 
 /*SYMBOL-MODALS*/
@@ -185,7 +204,8 @@ a {
 .symbol_article {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 10em;
+  /* justify-content: space-around; */
 }
 
 .symbol_size {
@@ -211,28 +231,16 @@ a {
 .symbol_paragraph {
 }
 
-/*INDIVIDUELLE SYMBOLER*/
-.symbols_main-symbol {
-}
-.symbols_circle {
-}
-.symbols_david-star {
-}
-.symbols_hank-cross {
-}
-.symbols_svastika {
-}
-.symbols_aum {
-}
-
 /*CTA-EVENTS-SECTION*/
 .cta_banner_events {
   background-color: #cd795d;
   text-align: center;
+  padding: 1em;
 }
 .cta_banner_btn {
   /* background-color: #694960;
   color: white; */
+  font-size: 1.2em;
 }
 
 /*FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER*/
@@ -246,9 +254,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100px;
 }
 .SoMe_text {
   font-family: "Cormorant Upright", serif;
+  font-size: 1.2em;
   color: #a35e61;
   font-weight: bold;
 }
@@ -261,8 +271,11 @@ a {
 .copyrights-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 40px;
 }
 
 .copyrights_text {
   color: white;
+  font-size: 0.7em;
 }
