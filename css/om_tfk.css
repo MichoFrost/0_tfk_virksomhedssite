@@ -26,6 +26,9 @@ h2 {
 h3 {
   font-size: 2em;
 }
+h4 {
+  font-size: 1.5em;
+}
 
 a {
   text-decoration: none;
@@ -86,6 +89,7 @@ a {
 .logo {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 .logo_symbol {
   width: 100px;
@@ -93,6 +97,7 @@ a {
 .logo_text {
 }
 .logo_heading {
+  margin: 0;
 }
 
 /*NAVBAR*/
@@ -165,7 +170,8 @@ a {
   background: white;
   width: 50%;
   padding: 3em;
-  transform: translateY(-60%);
+  top: 20vh;
+  /* transform: translateY(-60%); */
   max-height: 80vh;
   pointer-events: none;
   opacity: 0;
@@ -177,22 +183,23 @@ a {
 }
 
 .main-symbol_modal {
-  transform: translateY(-120%);
+  /* transform: translateY(-120%); */
+  top: 10vh;
 }
 .circle_modal {
-  transform: translateY(-280%);
+  /* transform: translateY(-280%); */
 }
 .david-star_modal {
-  transform: translateY(-300%);
+  /* transform: translateY(-300%); */
 }
 .hank-cross_modal {
-  transform: translateY(-360%);
+  /* transform: translateY(-360%); */
 }
 .svastika_modal {
-  transform: translateY(-450%);
+  /* transform: translateY(-450%); */
 }
 .aum_modal {
-  transform: translateY(-620%);
+  /* transform: translateY(-620%); */
 }
 
 /*SYMBOLS-SECTION*/
@@ -272,7 +279,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  height: 10vh;
+  padding: 20px;
+}
+@media (max-width: 800px) {
+  .copyrights-container {
+    flex-direction: column;
+  }
 }
 
 .copyrights_text {
