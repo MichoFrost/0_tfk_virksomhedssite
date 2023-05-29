@@ -37,37 +37,30 @@ allCloseIcons.forEach((element) =>
 
 // CLICK-EVENTS
 aboutBtn.addEventListener("click", function () {
-  console.log("aboutBtn");
   aboutModal.classList.add("visible");
   overlay.classList.add("visible");
 });
 mainSymbol.addEventListener("click", function () {
-  console.log("mainSymbol");
   mainSymbolModal.classList.add("visible");
   overlay.classList.add("visible");
 });
 circleSymbol.addEventListener("click", function () {
-  console.log("circleSymbol");
   circleModal.classList.add("visible");
   overlay.classList.add("visible");
 });
 davidStarSymbol.addEventListener("click", function () {
-  console.log("davidStarSymbol");
   davidStarModal.classList.add("visible");
   overlay.classList.add("visible");
 });
 hankCrossSymbol.addEventListener("click", function () {
-  console.log("hankCrossSymbol");
   hankCrossModal.classList.add("visible");
   overlay.classList.add("visible");
 });
 svastikaSymbol.addEventListener("click", function () {
-  console.log("svastikaSymbol");
   svastikaModal.classList.add("visible");
   overlay.classList.add("visible");
 });
 aumSymbol.addEventListener("click", function () {
-  console.log("aumSymbol");
   aumModal.classList.add("visible");
   overlay.classList.add("visible");
 });

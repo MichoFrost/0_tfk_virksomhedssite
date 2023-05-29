@@ -171,7 +171,6 @@ a {
   width: 50%;
   padding: 3em;
   top: 20vh;
-  /* transform: translateY(-60%); */
   max-height: 80vh;
   pointer-events: none;
   opacity: 0;
@@ -182,9 +181,12 @@ a {
   pointer-events: all;
 }
 
-.main-symbol_modal {
+.about_modal {
   /* transform: translateY(-120%); */
-  top: 10vh;
+  top: 5vh;
+}
+
+.main-symbol_modal {
 }
 .circle_modal {
   /* transform: translateY(-280%); */
