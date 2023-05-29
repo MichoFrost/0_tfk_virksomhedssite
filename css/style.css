@@ -1,2 +1,147 @@
 /*2 FONTE FRA STYLETILE: "Cormorant Upright" + "Instrument Sans"*/
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            BURGER-MENU
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.burgerIcon {
+  width: 60px;
+  height: 45px;
+  background-color: var(--backgroundColor);
+  box-shadow: 0px 0px 15px 10px var(--backgroundColor);
+  border-radius: 100px;
+  position: absolute;
+  right: 5%;
+  top: 1%;
+  margin-top: 2rem;
+  transition: all 0.7s ease;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/*Burger-linier*/
+.burgerIcon__line {
+  background: black;
+  border-radius: 9px;
+  height: 9px;
+  width: 100%;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0);
+  margin-left: auto;
+  transition: 0.4s ease-in-out;
+}
+
+/*Placering af burger-linier*/
+.burgerIcon__line1 {
+  top: 0px;
+}
+.burgerIcon__line2 {
+  top: 18px;
+}
+.burgerIcon__line3 {
+  top: 36px;
+}
+
+/*EFFEKT fra Klik-event (javaScript)*/
+.burgerIcon__line.clicked {
+  background: white;
+}
+
+.burgerIcon__line1.burgerIcon__line.clicked {
+  top: 18px;
+  transform: rotate(135deg);
+}
+.burgerIcon__line2.burgerIcon__line.clicked {
+  opacity: 0;
+  left: -60px;
+}
+.burgerIcon__line3.burgerIcon__line.clicked {
+  top: 18px;
+  transform: rotate(-135deg);
+}
+
+@media (max-width: 450px) {
+  .burgerIcon {
+    width: 50px;
+    height: 45px;
+    background-color: var(--backgroundColor);
+    box-shadow: 0px 0px 15px 10px var(--backgroundColor);
+    border-radius: 100px;
+    position: absolute;
+    right: 9%;
+    top: 1%;
+    margin-top: 2rem;
+    transition: all 0.7s ease;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  /*Burger-linier*/
+  .burgerIcon__line {
+    background: black;
+    border-radius: 7px;
+    height: 7px;
+  }
+
+  /*Placering af burger-linier*/
+  .burgerIcon__line1 {
+    top: 0px;
+  }
+  .burgerIcon__line2 {
+    top: 15px;
+  }
+  .burgerIcon__line3 {
+    top: 30px;
+  }
+
+  /* .burgerIcon__line1.burgerIcon__line.clicked {
+    top: 18px;
+    transform: rotate(135deg);
+  }
+  .burgerIcon__line2.burgerIcon__line.clicked {
+    opacity: 0;
+    left: -60px;
+  }
+  .burgerIcon__line3.burgerIcon__line.clicked {
+    top: 18px;
+    transform: rotate(-135deg);
+  } */
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 900px) {
+  .burgerIcon {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+/*MOBIL-NAVBAR*/
+
+@media screen and (max-width: 900px) {
+  .navbar_list {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    translate: 500px;
+    position: absolute;
+    top: 0;
+    right: -10%;
+    background-color: #cd795d;
+    padding: 8em 100px 3em 3em;
+    border-radius: 50px;
+    transition: 0.4s ease-in-out all;
+  }
+
+  .navbar_list.clicked {
+    translate: 0px;
+  }
+
+  .navbar_link {
+    font-size: 2.5em;
+    color: white;
+  }
+}
