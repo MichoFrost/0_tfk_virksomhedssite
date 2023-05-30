@@ -222,7 +222,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     right: 9%;
     top: -1%;
     margin-top: 2rem;
-    transition: all 0.7s ease;
+    transition: all 1s ease;
     cursor: pointer;
     z-index: 100;
   }
@@ -281,7 +281,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     background-color: #cd795d;
     padding: 8em 100px 3em 3em;
     border-radius: 50px;
-    transition: 0.4s ease-in-out all;
+    transition: 0.8s all cubic-bezier(0.59, 0.13, 0.33, 1.33);
   }
 
   .navbar_list.clicked {
