@@ -307,11 +307,18 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
   justify-content: space-between;
   height: 15vh;
 }
+
 .SoMe_text {
   font-family: "Cormorant Upright", serif;
   font-size: 1.2em;
   color: var(--light-purple);
   font-weight: bold;
+}
+
+@media (max-width: 400px) {
+  .sitefooter_SoMe {
+    height: 20vh;
+  }
 }
 
 .sitefooter_copyrights {
