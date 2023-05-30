@@ -1,6 +1,74 @@
 /*2 FONTE FRA STYLETILE: "Cormorant Upright" + "Instrument Sans"*/
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
+/*GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL*/
+/*GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL*/
+/*GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant Upright", serif;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.6em;
+}
+h4 {
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.5em;
+}
+
+p {
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  font-size: 0.8em;
+}
+
+p,
+a {
+  font-family: "Instrument Sans", sans-serif;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.btn {
+  background-color: var(--dark-purple);
+  color: var(--white);
+  padding: 1em 1.3em;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  margin: 1em;
+  cursor: pointer;
+}
+
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
             CSS-VARIABLER
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
@@ -17,6 +85,68 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
   --orange: #cd795d;
   --cream-color: #f3d3be;
   --hover-color: rgb(207, 191, 178);
+}
+
+/*HEADER***HEADER***HEADER***HEADER***HEADER***HEADER***HEADER*/
+/*HEADER***HEADER***HEADER***HEADER***HEADER***HEADER***HEADER*/
+/*HEADER***HEADER***HEADER***HEADER***HEADER***HEADER***HEADER*/
+
+.siteheader {
+  background-color: var(--cream-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+.siteheader-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*LOGO*/
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo_symbol {
+  width: 100px;
+}
+
+.logo_heading {
+  margin: 0;
+}
+
+@media (max-width: 450px) {
+  .about_siteheader {
+    height: 12vh;
+  }
+  .logo_heading {
+    font-size: 1.2em;
+  }
+  .logo_symbol {
+    width: 50px;
+  }
+}
+
+/*NAVBAR*/
+
+.navbar {
+}
+.navbar_list {
+  display: flex;
+  gap: 4em;
+  z-index: 100;
+}
+.navbar_item {
+  list-style: none;
+}
+.navbar_link {
+  font-family: "Cormorant Upright", serif;
+  font-weight: bold;
 }
 
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -90,7 +220,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     border-radius: 100px;
     position: absolute;
     right: 9%;
-    top: 1%;
+    top: -1%;
     margin-top: 2rem;
     transition: all 0.7s ease;
     cursor: pointer;
@@ -162,4 +292,54 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     font-size: 2.5em;
     color: white;
   }
+}
+
+/*FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER*/
+/*FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER*/
+/*FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER*/
+
+.sitefooter {
+  background-color: var(--cream-color);
+}
+.sitefooter_SoMe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+}
+.SoMe_text {
+  font-family: "Cormorant Upright", serif;
+  font-size: 1.2em;
+  color: var(--light-purple);
+  font-weight: bold;
+}
+
+.sitefooter_copyrights {
+  background-color: var(--black);
+  width: 100%;
+}
+
+.copyrights-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 20px;
+}
+@media (max-width: 800px) {
+  .copyrights-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  .sitefooter_SoMe {
+    flex-direction: column;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+}
+
+.copyrights_text {
+  color: var(--white);
+  font-size: 0.7em;
 }
