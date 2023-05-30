@@ -2,6 +2,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            CSS-VARIABLER
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+:root {
+  --BG-color: rgb(255, 243, 243);
+  --black: black;
+  --white: white;
+  --grey: rgb(109, 109, 109);
+  --cta-color: #ff4949;
+  --dark-purple: #694960;
+  --light-purple: #a35e61;
+  --grey-purple: #b0a5ad;
+  --orange: #cd795d;
+  --cream-color: #f3d3be;
+  --hover-color: rgb(207, 191, 178);
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
             BURGER-MENU
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
