@@ -91,7 +91,7 @@ main ul li {
   display: flex;
   margin-top: 2em;
   margin-bottom: 2em;
-  margin-left: -2.5em;
+  margin-left: 0em;
   font-size: 15px;
   font-family: "Instrument Sans", sans-serif;
 }
