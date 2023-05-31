@@ -150,13 +150,6 @@ main img {
   font-family: "Cormorant Upright", serif;
 }
 
-.fb {
-  width: 70px;
-  margin-top: 1.3em;
-  margin-right: 5em;
-  height: auto;
-}
-
 .banner h2 {
   color: var(--light-purple);
   font-family: "Instrument Sans", sans-serif;
