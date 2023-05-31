@@ -1,0 +1,134 @@
+/* Common styles for all screen sizes */
+header {
+  background-color: #efd4c1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 10px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.container h1 {
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+.container h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.container img {
+  display: block;
+  max-width: 100%;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-overlay h1 {
+  color: beige;
+  font-size: 750%;
+  margin: 0;
+}
+
+.text-overlay-h2 {
+  color: beige;
+  position: absolute;
+  left: 4%;
+  text-align: left;
+  font-size: 400%;
+}
+
+.image-container-2 {
+  display: block;
+  width: 100%;
+}
+
+.text-overlay-2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+}
+
+.text-overlay h1 {
+  margin: 0;
+}
+
+p {
+  font-size: 300%;
+}
+
+.sidebyside {
+  display: flex;
+  grid-template-columns: 2fr 1fr;
+  max-width: 100%;
+  margin: 12%;
+}
+
+.container-crystals {
+  position: relative;
+}
+
+#opacity-image {
+  opacity: 0.3;
+  width: 60%;
+}
+
+.text-overlay-p {
+  position: absolute;
+  top: 200%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 600px) {
+  .container h1 {
+    font-size: 500%;
+  }
+
+  .text-overlay h1 {
+    font-size: 300%;
+  }
+
+  .text-overlay-h2 {
+    font-size: 200%;
+  }
+
+  p {
+    font-size: 200%;
+  }
+
+  .sidebyside {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 600px) {
+  header {
+    padding: 20px; /* Increase the padding for larger screens */
+  }
+}
