@@ -211,6 +211,14 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
   transform: rotate(-135deg);
 }
 
+/* .burgerIcon:hover .burgerIcon__line2 {
+  width: 70%;
+}
+.burgerIcon:hover .burgerIcon__line3 {
+  width: 40%;
+}  */
+
+
 @media (max-width: 450px) {
   .burgerIcon {
     width: 50px;
